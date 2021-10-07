@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.ArrayList;
 
-class Trade{
+class Trading{
     public String Name;
     public int Amount;
     public String Rate;
@@ -10,7 +10,7 @@ class Trade{
 
 public class FXTRADE {
 
-	 static ArrayList<Trade> Array=new ArrayList<Trade>();
+	 static ArrayList<Trading> Array=new ArrayList<Trading>();
 	 static Double USD_Value=66.00;
 
 	    public static void main(String[] args) 
