@@ -52,7 +52,7 @@ public class FXTRADE {
 	            }
 	            else
 	            {
-	            	System.out.println("Invalid Input");
+	            	System.out.println("Enter Valid Input");
 	            }
 	        }
 	        else if(option==2)
