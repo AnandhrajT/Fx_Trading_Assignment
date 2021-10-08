@@ -77,7 +77,8 @@ public class FXTRADE {
 	            for(int i=0;i<Array.size();i++)
 	            {
 	                Trade temp=Array.get(i);
-	                System.out.println((i+1)+"\t"+temp.CurrencyPair+"\t\t"+temp.Name+"\t\t"+(temp.Amount*USD_Value)+"\t"+USD_Value);
+			double Total = temp.Amount*USD_Value;
+	                System.out.println((i+1)+"\t"+temp.CurrencyPair+"\t\t"+temp.Name+"\t\t"+Total+"\t"+USD_Value);
 	            }
 	    }
 	}
