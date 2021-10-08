@@ -11,7 +11,7 @@ class Trading{
 public class FXTRADE {
 
 	 static ArrayList<Trading> Array=new ArrayList<Trading>();
-	 static Double USD_Value=66.00;
+	 static Double USD_Value=66.00d;
 
 	    public static void main(String[] args) 
 	    {
@@ -19,8 +19,8 @@ public class FXTRADE {
 	        Scanner scan=new Scanner(System.in);
 	        System.out.println("Select any One Choice");
 	        System.out.println("1.Book Trade\n2.Print Trades\n3.Exit\n");
-	        int option=scan.nextInt();
-	        if(option==1)
+	        int Option=scan.nextInt();
+	        if(Option==1)
 	        {
 	            Trade temp=new Trade();
 	            System.out.println("Enter Customer Name");
