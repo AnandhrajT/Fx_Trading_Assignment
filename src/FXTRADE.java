@@ -55,7 +55,7 @@ public class FXTRADE {
 	            	System.out.println("Enter Valid Input");
 	            }
 	        }
-	        else if(option==2)
+	        else if(Option==2)
 	        {
 	        	printValues();
 	        }
